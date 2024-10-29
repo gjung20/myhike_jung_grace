@@ -4,6 +4,11 @@
  *-------------------------------------
  */
 
+ html {
+  margin: 0px;
+  padding: 0px;
+ }
+
 .material-icons.md-18 { font-size: 18px; }
 .material-icons.md-24 { font-size: 24px; }
 .material-icons.md-36 { font-size: 36px; }
@@ -12,4 +17,15 @@
 .responsive {
     width: 100%;
     height: auto;
+  }
+
+  .rounded-circle {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    /* Centers the circle horizontally */
+  }
+  h1 {
+    display: flex;
+    justify-content: center;
   }
