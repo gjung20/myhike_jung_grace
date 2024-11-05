@@ -41,7 +41,7 @@ function readQuote(day) {
             console.log("Error calling onSnapshot", error);
         });
 }
-readQuote("tuesday");        //calling the function
+readQuote("monday");        //calling the function
 
 function writeHikes() {
     //define a variable for the collection you want to create in Firestore to populate data
